@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "7f2xg4wB6i8=",
+  "dgSpecHash": "saIFH1mMSE0=",
   "success": true,
   "projectFilePath": "C:\\Users\\Matthew\\source\\repos\\FanSite\\Fan Website\\Fan Website.csproj",
   "expectedPackageFiles": [
@@ -163,8 +163,10 @@
     {
       "code": "NU1903",
       "level": "Warning",
-      "warningLevel": 1,
       "message": "Package 'Azure.Identity' 1.2.2 has a known high severity vulnerability, https://github.com/advisories/GHSA-5mfx-4wcx-rv27",
+      "projectPath": "C:\\Users\\Matthew\\source\\repos\\FanSite\\Fan Website\\Fan Website.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\Matthew\\source\\repos\\FanSite\\Fan Website\\Fan Website.csproj",
       "libraryId": "Azure.Identity",
       "targetGraphs": [
         ".NETCoreApp,Version=v3.1"
@@ -173,8 +175,10 @@
     {
       "code": "NU1902",
       "level": "Warning",
-      "warningLevel": 1,
       "message": "Package 'Azure.Identity' 1.2.2 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-m5vv-6r4h-3vj9",
+      "projectPath": "C:\\Users\\Matthew\\source\\repos\\FanSite\\Fan Website\\Fan Website.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\Matthew\\source\\repos\\FanSite\\Fan Website\\Fan Website.csproj",
       "libraryId": "Azure.Identity",
       "targetGraphs": [
         ".NETCoreApp,Version=v3.1"
@@ -183,8 +187,10 @@
     {
       "code": "NU1902",
       "level": "Warning",
-      "warningLevel": 1,
       "message": "Package 'Azure.Identity' 1.2.2 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-wvxc-855f-jvrv",
+      "projectPath": "C:\\Users\\Matthew\\source\\repos\\FanSite\\Fan Website\\Fan Website.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\Matthew\\source\\repos\\FanSite\\Fan Website\\Fan Website.csproj",
       "libraryId": "Azure.Identity",
       "targetGraphs": [
         ".NETCoreApp,Version=v3.1"
@@ -193,8 +199,10 @@
     {
       "code": "NU1902",
       "level": "Warning",
-      "warningLevel": 1,
       "message": "Package 'Azure.Storage.Blobs' 12.8.3 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-64x4-9hc6-r2h6",
+      "projectPath": "C:\\Users\\Matthew\\source\\repos\\FanSite\\Fan Website\\Fan Website.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\Matthew\\source\\repos\\FanSite\\Fan Website\\Fan Website.csproj",
       "libraryId": "Azure.Storage.Blobs",
       "targetGraphs": [
         ".NETCoreApp,Version=v3.1"
@@ -203,8 +211,10 @@
     {
       "code": "NU1902",
       "level": "Warning",
-      "warningLevel": 1,
       "message": "Package 'Azure.Storage.Queues' 12.2.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-64x4-9hc6-r2h6",
+      "projectPath": "C:\\Users\\Matthew\\source\\repos\\FanSite\\Fan Website\\Fan Website.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\Matthew\\source\\repos\\FanSite\\Fan Website\\Fan Website.csproj",
       "libraryId": "Azure.Storage.Queues",
       "targetGraphs": [
         ".NETCoreApp,Version=v3.1"

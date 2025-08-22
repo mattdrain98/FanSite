@@ -3,34 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\Matthew\\source\\repos\\FanSite\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{34EEB367-0370-4F65-B2BC-228CD2F7426F}|Fan Website\\Fan Website.csproj|c:\\users\\matthew\\source\\repos\\fansite\\fan website\\storagesettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{34EEB367-0370-4F65-B2BC-228CD2F7426F}|Fan Website\\Fan Website.csproj|solutionrelative:fan website\\storagesettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{34EEB367-0370-4F65-B2BC-228CD2F7426F}|Fan Website\\Fan Website.csproj|c:\\users\\matthew\\source\\repos\\fansite\\fan website\\controllers\\forumcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{34EEB367-0370-4F65-B2BC-228CD2F7426F}|Fan Website\\Fan Website.csproj|solutionrelative:fan website\\controllers\\forumcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{34EEB367-0370-4F65-B2BC-228CD2F7426F}|Fan Website\\Fan Website.csproj|c:\\users\\matthew\\source\\repos\\fansite\\fan website\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{34EEB367-0370-4F65-B2BC-228CD2F7426F}|Fan Website\\Fan Website.csproj|solutionrelative:fan website\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{34EEB367-0370-4F65-B2BC-228CD2F7426F}|Fan Website\\Fan Website.csproj|c:\\users\\matthew\\source\\repos\\fansite\\fan website\\models\\post\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{34EEB367-0370-4F65-B2BC-228CD2F7426F}|Fan Website\\Fan Website.csproj|solutionrelative:fan website\\models\\post\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{34EEB367-0370-4F65-B2BC-228CD2F7426F}|Fan Website\\Fan Website.csproj|c:\\users\\matthew\\source\\repos\\fansite\\fan website\\models\\like\\like.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{34EEB367-0370-4F65-B2BC-228CD2F7426F}|Fan Website\\Fan Website.csproj|solutionrelative:fan website\\models\\like\\like.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{34EEB367-0370-4F65-B2BC-228CD2F7426F}|Fan Website\\Fan Website.csproj|c:\\users\\matthew\\source\\repos\\fansite\\fan website\\service\\applicationuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{34EEB367-0370-4F65-B2BC-228CD2F7426F}|Fan Website\\Fan Website.csproj|solutionrelative:fan website\\service\\applicationuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{34EEB367-0370-4F65-B2BC-228CD2F7426F}|Fan Website\\Fan Website.csproj|c:\\users\\matthew\\source\\repos\\fansite\\fan website\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{34EEB367-0370-4F65-B2BC-228CD2F7426F}|Fan Website\\Fan Website.csproj|solutionrelative:fan website\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{34EEB367-0370-4F65-B2BC-228CD2F7426F}|Fan Website\\Fan Website.csproj|c:\\users\\matthew\\source\\repos\\fansite\\fan website\\models\\forum\\forum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{34EEB367-0370-4F65-B2BC-228CD2F7426F}|Fan Website\\Fan Website.csproj|solutionrelative:fan website\\models\\forum\\forum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -41,6 +13,14 @@
     {
       "AbsoluteMoniker": "D:0:0:{34EEB367-0370-4F65-B2BC-228CD2F7426F}|Fan Website\\Fan Website.csproj|c:\\users\\matthew\\source\\repos\\fansite\\fan website\\models\\follow\\follow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{34EEB367-0370-4F65-B2BC-228CD2F7426F}|Fan Website\\Fan Website.csproj|solutionrelative:fan website\\models\\follow\\follow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34EEB367-0370-4F65-B2BC-228CD2F7426F}|Fan Website\\Fan Website.csproj|c:\\users\\matthew\\source\\repos\\fansite\\fan website\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34EEB367-0370-4F65-B2BC-228CD2F7426F}|Fan Website\\Fan Website.csproj|solutionrelative:fan website\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34EEB367-0370-4F65-B2BC-228CD2F7426F}|Fan Website\\Fan Website.csproj|c:\\users\\matthew\\source\\repos\\fansite\\fan website\\controllers\\forumcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34EEB367-0370-4F65-B2BC-228CD2F7426F}|Fan Website\\Fan Website.csproj|solutionrelative:fan website\\controllers\\forumcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{34EEB367-0370-4F65-B2BC-228CD2F7426F}|Fan Website\\Fan Website.csproj|c:\\users\\matthew\\source\\repos\\fansite\\fan website\\controllers\\postcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -115,6 +95,10 @@
       "RelativeMoniker": "D:0:0:{34EEB367-0370-4F65-B2BC-228CD2F7426F}|Fan Website\\Fan Website.csproj|solutionrelative:fan website\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{34EEB367-0370-4F65-B2BC-228CD2F7426F}|Fan Website\\Fan Website.csproj|c:\\users\\matthew\\source\\repos\\fansite\\fan website\\models\\like\\like.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34EEB367-0370-4F65-B2BC-228CD2F7426F}|Fan Website\\Fan Website.csproj|solutionrelative:fan website\\models\\like\\like.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{34EEB367-0370-4F65-B2BC-228CD2F7426F}|Fan Website\\Fan Website.csproj|c:\\users\\matthew\\source\\repos\\fansite\\fan website\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{34EEB367-0370-4F65-B2BC-228CD2F7426F}|Fan Website\\Fan Website.csproj|solutionrelative:fan website\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -187,58 +171,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "storagesettings.json",
-              "DocumentMoniker": "C:\\Users\\Matthew\\source\\repos\\FanSite\\Fan Website\\storagesettings.json",
-              "RelativeDocumentMoniker": "Fan Website\\storagesettings.json",
-              "ToolTip": "C:\\Users\\Matthew\\source\\repos\\FanSite\\Fan Website\\storagesettings.json",
-              "RelativeToolTip": "Fan Website\\storagesettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-08-22T11:40:45.913Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Post.cs",
-              "DocumentMoniker": "C:\\Users\\Matthew\\source\\repos\\FanSite\\Fan Website\\Models\\Post\\Post.cs",
-              "RelativeDocumentMoniker": "Fan Website\\Models\\Post\\Post.cs",
-              "ToolTip": "C:\\Users\\Matthew\\source\\repos\\FanSite\\Fan Website\\Models\\Post\\Post.cs",
-              "RelativeToolTip": "Fan Website\\Models\\Post\\Post.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-22T11:39:49.766Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ApplicationUserService.cs",
-              "DocumentMoniker": "C:\\Users\\Matthew\\source\\repos\\FanSite\\Fan Website\\Service\\ApplicationUserService.cs",
-              "RelativeDocumentMoniker": "Fan Website\\Service\\ApplicationUserService.cs",
-              "ToolTip": "C:\\Users\\Matthew\\source\\repos\\FanSite\\Fan Website\\Service\\ApplicationUserService.cs",
-              "RelativeToolTip": "Fan Website\\Service\\ApplicationUserService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-22T11:39:10.675Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "_ViewImports.cshtml",
-              "DocumentMoniker": "C:\\Users\\Matthew\\source\\repos\\FanSite\\Fan Website\\Views\\_ViewImports.cshtml",
-              "RelativeDocumentMoniker": "Fan Website\\Views\\_ViewImports.cshtml",
-              "ToolTip": "C:\\Users\\Matthew\\source\\repos\\FanSite\\Fan Website\\Views\\_ViewImports.cshtml",
-              "RelativeToolTip": "Fan Website\\Views\\_ViewImports.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-22T11:39:00.742Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
               "Title": "Forum.cs",
               "DocumentMoniker": "C:\\Users\\Matthew\\source\\repos\\FanSite\\Fan Website\\Models\\Forum\\Forum.cs",
               "RelativeDocumentMoniker": "Fan Website\\Models\\Forum\\Forum.cs",
@@ -251,7 +183,59 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 1,
+              "Title": "AddForumModel.cs",
+              "DocumentMoniker": "C:\\Users\\Matthew\\source\\repos\\FanSite\\Fan Website\\Models\\Forum\\AddForumModel.cs",
+              "RelativeDocumentMoniker": "Fan Website\\Models\\Forum\\AddForumModel.cs",
+              "ToolTip": "C:\\Users\\Matthew\\source\\repos\\FanSite\\Fan Website\\Models\\Forum\\AddForumModel.cs",
+              "RelativeToolTip": "Fan Website\\Models\\Forum\\AddForumModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T01:49:01.676Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Follow.cs",
+              "DocumentMoniker": "C:\\Users\\Matthew\\source\\repos\\FanSite\\Fan Website\\Models\\Follow\\Follow.cs",
+              "RelativeDocumentMoniker": "Fan Website\\Models\\Follow\\Follow.cs",
+              "ToolTip": "C:\\Users\\Matthew\\source\\repos\\FanSite\\Fan Website\\Models\\Follow\\Follow.cs",
+              "RelativeToolTip": "Fan Website\\Models\\Follow\\Follow.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T01:48:55.852Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ForumController.cs",
+              "DocumentMoniker": "C:\\Users\\Matthew\\source\\repos\\FanSite\\Fan Website\\Controllers\\ForumController.cs",
+              "RelativeDocumentMoniker": "Fan Website\\Controllers\\ForumController.cs",
+              "ToolTip": "C:\\Users\\Matthew\\source\\repos\\FanSite\\Fan Website\\Controllers\\ForumController.cs",
+              "RelativeToolTip": "Fan Website\\Controllers\\ForumController.cs",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T01:48:24.161Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PostController.cs",
+              "DocumentMoniker": "C:\\Users\\Matthew\\source\\repos\\FanSite\\Fan Website\\Controllers\\PostController.cs",
+              "RelativeDocumentMoniker": "Fan Website\\Controllers\\PostController.cs",
+              "ToolTip": "C:\\Users\\Matthew\\source\\repos\\FanSite\\Fan Website\\Controllers\\PostController.cs",
+              "RelativeToolTip": "Fan Website\\Controllers\\PostController.cs",
+              "ViewState": "AgIAAOoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T01:48:12.135Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "ProfileCommentController.cs",
               "DocumentMoniker": "C:\\Users\\Matthew\\source\\repos\\FanSite\\Fan Website\\Controllers\\ProfileCommentController.cs",
               "RelativeDocumentMoniker": "Fan Website\\Controllers\\ProfileCommentController.cs",
@@ -259,11 +243,12 @@
               "RelativeToolTip": "Fan Website\\Controllers\\ProfileCommentController.cs",
               "ViewState": "AgIAACEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-09T01:48:09.715Z"
+              "WhenOpened": "2024-10-09T01:48:09.715Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 7,
               "Title": "ProfileController.cs",
               "DocumentMoniker": "C:\\Users\\Matthew\\source\\repos\\FanSite\\Fan Website\\Controllers\\ProfileController.cs",
               "RelativeDocumentMoniker": "Fan Website\\Controllers\\ProfileController.cs",
@@ -271,11 +256,12 @@
               "RelativeToolTip": "Fan Website\\Controllers\\ProfileController.cs",
               "ViewState": "AgIAANIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-09T01:48:02.378Z"
+              "WhenOpened": "2024-10-09T01:48:02.378Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 8,
               "Title": "ReplyController.cs",
               "DocumentMoniker": "C:\\Users\\Matthew\\source\\repos\\FanSite\\Fan Website\\Controllers\\ReplyController.cs",
               "RelativeDocumentMoniker": "Fan Website\\Controllers\\ReplyController.cs",
@@ -283,11 +269,12 @@
               "RelativeToolTip": "Fan Website\\Controllers\\ReplyController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-09T01:47:56.042Z"
+              "WhenOpened": "2024-10-09T01:47:56.042Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 9,
               "Title": "ScreenshotController.cs",
               "DocumentMoniker": "C:\\Users\\Matthew\\source\\repos\\FanSite\\Fan Website\\Controllers\\ScreenshotController.cs",
               "RelativeDocumentMoniker": "Fan Website\\Controllers\\ScreenshotController.cs",
@@ -295,11 +282,12 @@
               "RelativeToolTip": "Fan Website\\Controllers\\ScreenshotController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-09T01:47:46.813Z"
+              "WhenOpened": "2024-10-09T01:47:46.813Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 10,
               "Title": "SearchController.cs",
               "DocumentMoniker": "C:\\Users\\Matthew\\source\\repos\\FanSite\\Fan Website\\Controllers\\SearchController.cs",
               "RelativeDocumentMoniker": "Fan Website\\Controllers\\SearchController.cs",
@@ -307,11 +295,12 @@
               "RelativeToolTip": "Fan Website\\Controllers\\SearchController.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-09T01:47:43.012Z"
+              "WhenOpened": "2024-10-09T01:47:43.012Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 13,
               "Title": "IPost.cs",
               "DocumentMoniker": "C:\\Users\\Matthew\\source\\repos\\FanSite\\Fan Website\\Infrastructure\\IPost.cs",
               "RelativeDocumentMoniker": "Fan Website\\Infrastructure\\IPost.cs",
@@ -319,11 +308,12 @@
               "RelativeToolTip": "Fan Website\\Infrastructure\\IPost.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-09T01:47:21.649Z"
+              "WhenOpened": "2024-10-09T01:47:21.649Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 14,
               "Title": "IUnitOfWork.cs",
               "DocumentMoniker": "C:\\Users\\Matthew\\source\\repos\\FanSite\\Fan Website\\Infrastructure\\IUnitOfWork.cs",
               "RelativeDocumentMoniker": "Fan Website\\Infrastructure\\IUnitOfWork.cs",
@@ -331,11 +321,12 @@
               "RelativeToolTip": "Fan Website\\Infrastructure\\IUnitOfWork.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-09T01:47:20.284Z"
+              "WhenOpened": "2024-10-09T01:47:20.284Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 15,
               "Title": "IUpload.cs",
               "DocumentMoniker": "C:\\Users\\Matthew\\source\\repos\\FanSite\\Fan Website\\Infrastructure\\IUpload.cs",
               "RelativeDocumentMoniker": "Fan Website\\Infrastructure\\IUpload.cs",
@@ -343,24 +334,51 @@
               "RelativeToolTip": "Fan Website\\Infrastructure\\IUpload.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-09T01:47:15.862Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Like.cs",
-              "DocumentMoniker": "C:\\Users\\Matthew\\source\\repos\\FanSite\\Fan Website\\Models\\Like\\Like.cs",
-              "RelativeDocumentMoniker": "Fan Website\\Models\\Like\\Like.cs",
-              "ToolTip": "C:\\Users\\Matthew\\source\\repos\\FanSite\\Fan Website\\Models\\Like\\Like.cs",
-              "RelativeToolTip": "Fan Website\\Models\\Like\\Like.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-09T01:45:49.403Z",
+              "WhenOpened": "2024-10-09T01:47:15.862Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 16,
+              "Title": "RegisterViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Matthew\\source\\repos\\FanSite\\Fan Website\\ViewModel\\RegisterViewModel.cs",
+              "RelativeDocumentMoniker": "Fan Website\\ViewModel\\RegisterViewModel.cs",
+              "ToolTip": "C:\\Users\\Matthew\\source\\repos\\FanSite\\Fan Website\\ViewModel\\RegisterViewModel.cs",
+              "RelativeToolTip": "Fan Website\\ViewModel\\RegisterViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T01:47:09.987Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "PostViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Matthew\\source\\repos\\FanSite\\Fan Website\\ViewModel\\PostViewModel.cs",
+              "RelativeDocumentMoniker": "Fan Website\\ViewModel\\PostViewModel.cs",
+              "ToolTip": "C:\\Users\\Matthew\\source\\repos\\FanSite\\Fan Website\\ViewModel\\PostViewModel.cs",
+              "RelativeToolTip": "Fan Website\\ViewModel\\PostViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T01:46:09.265Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Matthew\\source\\repos\\FanSite\\Fan Website\\ViewModel\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "Fan Website\\ViewModel\\LoginViewModel.cs",
+              "ToolTip": "C:\\Users\\Matthew\\source\\repos\\FanSite\\Fan Website\\ViewModel\\LoginViewModel.cs",
+              "RelativeToolTip": "Fan Website\\ViewModel\\LoginViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T01:46:06.024Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "AccountController.cs",
               "DocumentMoniker": "C:\\Users\\Matthew\\source\\repos\\FanSite\\Fan Website\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "Fan Website\\Controllers\\AccountController.cs",
@@ -373,92 +391,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ForumController.cs",
-              "DocumentMoniker": "C:\\Users\\Matthew\\source\\repos\\FanSite\\Fan Website\\Controllers\\ForumController.cs",
-              "RelativeDocumentMoniker": "Fan Website\\Controllers\\ForumController.cs",
-              "ToolTip": "C:\\Users\\Matthew\\source\\repos\\FanSite\\Fan Website\\Controllers\\ForumController.cs",
-              "RelativeToolTip": "Fan Website\\Controllers\\ForumController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHAAAABAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-09T01:48:24.161Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "PostController.cs",
-              "DocumentMoniker": "C:\\Users\\Matthew\\source\\repos\\FanSite\\Fan Website\\Controllers\\PostController.cs",
-              "RelativeDocumentMoniker": "Fan Website\\Controllers\\PostController.cs",
-              "ToolTip": "C:\\Users\\Matthew\\source\\repos\\FanSite\\Fan Website\\Controllers\\PostController.cs",
-              "RelativeToolTip": "Fan Website\\Controllers\\PostController.cs",
-              "ViewState": "AgIAAOoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-09T01:48:12.135Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Follow.cs",
-              "DocumentMoniker": "C:\\Users\\Matthew\\source\\repos\\FanSite\\Fan Website\\Models\\Follow\\Follow.cs",
-              "RelativeDocumentMoniker": "Fan Website\\Models\\Follow\\Follow.cs",
-              "ToolTip": "C:\\Users\\Matthew\\source\\repos\\FanSite\\Fan Website\\Models\\Follow\\Follow.cs",
-              "RelativeToolTip": "Fan Website\\Models\\Follow\\Follow.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-09T01:48:55.852Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "AddForumModel.cs",
-              "DocumentMoniker": "C:\\Users\\Matthew\\source\\repos\\FanSite\\Fan Website\\Models\\Forum\\AddForumModel.cs",
-              "RelativeDocumentMoniker": "Fan Website\\Models\\Forum\\AddForumModel.cs",
-              "ToolTip": "C:\\Users\\Matthew\\source\\repos\\FanSite\\Fan Website\\Models\\Forum\\AddForumModel.cs",
-              "RelativeToolTip": "Fan Website\\Models\\Forum\\AddForumModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-09T01:49:01.676Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "RegisterViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\Matthew\\source\\repos\\FanSite\\Fan Website\\ViewModel\\RegisterViewModel.cs",
-              "RelativeDocumentMoniker": "Fan Website\\ViewModel\\RegisterViewModel.cs",
-              "ToolTip": "C:\\Users\\Matthew\\source\\repos\\FanSite\\Fan Website\\ViewModel\\RegisterViewModel.cs",
-              "RelativeToolTip": "Fan Website\\ViewModel\\RegisterViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-09T01:47:09.987Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "PostViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\Matthew\\source\\repos\\FanSite\\Fan Website\\ViewModel\\PostViewModel.cs",
-              "RelativeDocumentMoniker": "Fan Website\\ViewModel\\PostViewModel.cs",
-              "ToolTip": "C:\\Users\\Matthew\\source\\repos\\FanSite\\Fan Website\\ViewModel\\PostViewModel.cs",
-              "RelativeToolTip": "Fan Website\\ViewModel\\PostViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-09T01:46:09.265Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "LoginViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\Matthew\\source\\repos\\FanSite\\Fan Website\\ViewModel\\LoginViewModel.cs",
-              "RelativeDocumentMoniker": "Fan Website\\ViewModel\\LoginViewModel.cs",
-              "ToolTip": "C:\\Users\\Matthew\\source\\repos\\FanSite\\Fan Website\\ViewModel\\LoginViewModel.cs",
-              "RelativeToolTip": "Fan Website\\ViewModel\\LoginViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-09T01:46:06.024Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 19,
               "Title": "ForumViewModel.cs",
               "DocumentMoniker": "C:\\Users\\Matthew\\source\\repos\\FanSite\\Fan Website\\ViewModel\\ForumViewModel.cs",
               "RelativeDocumentMoniker": "Fan Website\\ViewModel\\ForumViewModel.cs",
@@ -466,11 +399,12 @@
               "RelativeToolTip": "Fan Website\\ViewModel\\ForumViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-09T01:46:05.024Z"
+              "WhenOpened": "2024-10-09T01:46:05.024Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 20,
               "Title": "EditProfileViewModel.cs",
               "DocumentMoniker": "C:\\Users\\Matthew\\source\\repos\\FanSite\\Fan Website\\ViewModel\\EditProfileViewModel.cs",
               "RelativeDocumentMoniker": "Fan Website\\ViewModel\\EditProfileViewModel.cs",
@@ -478,11 +412,25 @@
               "RelativeToolTip": "Fan Website\\ViewModel\\EditProfileViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-09T01:46:02.713Z"
+              "WhenOpened": "2024-10-09T01:46:02.713Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 23,
+              "Title": "Like.cs",
+              "DocumentMoniker": "C:\\Users\\Matthew\\source\\repos\\FanSite\\Fan Website\\Models\\Like\\Like.cs",
+              "RelativeDocumentMoniker": "Fan Website\\Models\\Like\\Like.cs",
+              "ToolTip": "C:\\Users\\Matthew\\source\\repos\\FanSite\\Fan Website\\Models\\Like\\Like.cs",
+              "RelativeToolTip": "Fan Website\\Models\\Like\\Like.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T01:45:49.403Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Matthew\\source\\repos\\FanSite\\Fan Website\\Program.cs",
               "RelativeDocumentMoniker": "Fan Website\\Program.cs",
@@ -490,11 +438,12 @@
               "RelativeToolTip": "Fan Website\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-09T01:45:43.958Z"
+              "WhenOpened": "2024-10-09T01:45:43.958Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 25,
               "Title": "Startup.cs",
               "DocumentMoniker": "C:\\Users\\Matthew\\source\\repos\\FanSite\\Fan Website\\Startup.cs",
               "RelativeDocumentMoniker": "Fan Website\\Startup.cs",
@@ -502,11 +451,12 @@
               "RelativeToolTip": "Fan Website\\Startup.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-09T01:45:41.514Z"
+              "WhenOpened": "2024-10-09T01:45:41.514Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 26,
               "Title": "TopPosts.cshtml",
               "DocumentMoniker": "C:\\Users\\Matthew\\source\\repos\\FanSite\\Fan Website\\Views\\Post\\TopPosts.cshtml",
               "RelativeDocumentMoniker": "Fan Website\\Views\\Post\\TopPosts.cshtml",
@@ -514,11 +464,12 @@
               "RelativeToolTip": "Fan Website\\Views\\Post\\TopPosts.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-24T13:50:41.458Z"
+              "WhenOpened": "2024-04-24T13:50:41.458Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 31,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\Matthew\\source\\repos\\FanSite\\Fan Website\\Views\\ProfileComment\\Create.cshtml",
               "RelativeDocumentMoniker": "Fan Website\\Views\\ProfileComment\\Create.cshtml",
@@ -530,7 +481,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 32,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Matthew\\source\\repos\\FanSite\\Fan Website\\Views\\Post\\Index.cshtml",
               "RelativeDocumentMoniker": "Fan Website\\Views\\Post\\Index.cshtml",
@@ -542,7 +493,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 12,
               "Title": "IForum.cs",
               "DocumentMoniker": "C:\\Users\\Matthew\\source\\repos\\FanSite\\Fan Website\\Infrastructure\\IForum.cs",
               "RelativeDocumentMoniker": "Fan Website\\Infrastructure\\IForum.cs",
@@ -550,11 +501,12 @@
               "RelativeToolTip": "Fan Website\\Infrastructure\\IForum.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-24T13:48:21.807Z"
+              "WhenOpened": "2024-04-24T13:48:21.807Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 11,
               "Title": "IApplicationUser.cs",
               "DocumentMoniker": "C:\\Users\\Matthew\\source\\repos\\FanSite\\Fan Website\\Infrastructure\\IApplicationUser.cs",
               "RelativeDocumentMoniker": "Fan Website\\Infrastructure\\IApplicationUser.cs",
@@ -562,11 +514,12 @@
               "RelativeToolTip": "Fan Website\\Infrastructure\\IApplicationUser.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-24T13:48:20.594Z"
+              "WhenOpened": "2024-04-24T13:48:20.594Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 30,
               "Title": "UserScreenshots.cshtml",
               "DocumentMoniker": "C:\\Users\\Matthew\\source\\repos\\FanSite\\Fan Website\\Views\\Screenshot\\UserScreenshots.cshtml",
               "RelativeDocumentMoniker": "Fan Website\\Views\\Screenshot\\UserScreenshots.cshtml",
@@ -578,7 +531,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 29,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Matthew\\source\\repos\\FanSite\\Fan Website\\Views\\Screenshot\\Index.cshtml",
               "RelativeDocumentMoniker": "Fan Website\\Views\\Screenshot\\Index.cshtml",
@@ -590,7 +543,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 33,
               "Title": "EditReply.cshtml",
               "DocumentMoniker": "C:\\Users\\Matthew\\source\\repos\\FanSite\\Fan Website\\Views\\Post\\EditReply.cshtml",
               "RelativeDocumentMoniker": "Fan Website\\Views\\Post\\EditReply.cshtml",
@@ -602,7 +555,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 34,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\Matthew\\source\\repos\\FanSite\\Fan Website\\Views\\Post\\Edit.cshtml",
               "RelativeDocumentMoniker": "Fan Website\\Views\\Post\\Edit.cshtml",
@@ -614,7 +567,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 27,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\Users\\Matthew\\source\\repos\\FanSite\\Fan Website\\Views\\Post\\Delete.cshtml",
               "RelativeDocumentMoniker": "Fan Website\\Views\\Post\\Delete.cshtml",
@@ -626,7 +579,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 35,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\Matthew\\source\\repos\\FanSite\\Fan Website\\Views\\Post\\Create.cshtml",
               "RelativeDocumentMoniker": "Fan Website\\Views\\Post\\Create.cshtml",
@@ -638,7 +591,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 21,
               "Title": "ChangePasswordViewModel.cs",
               "DocumentMoniker": "C:\\Users\\Matthew\\source\\repos\\FanSite\\Fan Website\\ViewModel\\ChangePasswordViewModel.cs",
               "RelativeDocumentMoniker": "Fan Website\\ViewModel\\ChangePasswordViewModel.cs",
@@ -646,11 +599,12 @@
               "RelativeToolTip": "Fan Website\\ViewModel\\ChangePasswordViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-24T13:48:36.907Z"
+              "WhenOpened": "2024-04-24T13:48:36.907Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 36,
               "Title": "ErrorViewModel.cs",
               "DocumentMoniker": "C:\\Users\\Matthew\\source\\repos\\FanSite\\Fan Website\\Models\\ErrorViewModel.cs",
               "RelativeDocumentMoniker": "Fan Website\\Models\\ErrorViewModel.cs",
@@ -662,7 +616,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 22,
               "Title": "ApplicationUser.cs",
               "DocumentMoniker": "C:\\Users\\Matthew\\source\\repos\\FanSite\\Fan Website\\Models\\ApplicationUser.cs",
               "RelativeDocumentMoniker": "Fan Website\\Models\\ApplicationUser.cs",
@@ -670,11 +624,12 @@
               "RelativeToolTip": "Fan Website\\Models\\ApplicationUser.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-24T13:48:31.685Z"
+              "WhenOpened": "2024-04-24T13:48:31.685Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 28,
               "Title": "DeleteReply.cshtml",
               "DocumentMoniker": "C:\\Users\\Matthew\\source\\repos\\FanSite\\Fan Website\\Views\\Post\\DeleteReply.cshtml",
               "RelativeDocumentMoniker": "Fan Website\\Views\\Post\\DeleteReply.cshtml",
@@ -686,7 +641,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 37,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\Matthew\\source\\repos\\FanSite\\Fan Website\\Models\\AppDbContext.cs",
               "RelativeDocumentMoniker": "Fan Website\\Models\\AppDbContext.cs",
@@ -698,7 +653,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 38,
               "Title": "Account.cs",
               "DocumentMoniker": "C:\\Users\\Matthew\\source\\repos\\FanSite\\Fan Website\\Models\\Account.cs",
               "RelativeDocumentMoniker": "Fan Website\\Models\\Account.cs",

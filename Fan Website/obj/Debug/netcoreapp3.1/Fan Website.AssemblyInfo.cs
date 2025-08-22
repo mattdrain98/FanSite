@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Fan Website")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f3f3f4b75c04fc7cb508f0c8db061fd47e5d71f3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a7fd5a976ecd29fde079e05ff975eb713bdb3a3a")]
 [assembly: System.Reflection.AssemblyProductAttribute("Fan Website")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Fan Website")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
