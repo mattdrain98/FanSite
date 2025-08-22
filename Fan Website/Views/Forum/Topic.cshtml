@@ -1,0 +1,165 @@
+﻿@model Fan_Website.Models.Forum.ForumTopicModel
+@inject SignInManager<ApplicationUser> signInManager
+
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="~/css/site.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    
+    <div class="container body-content">
+        <div class="row sectionHeader">
+            <div class="sectionHeading">
+                <span>@Model.Forum.Name Forum</span>
+            </div>
+            <div class="sectionDescription">
+                @if (!signInManager.IsSignedIn(User))
+                {
+                    <span>
+                        You must be a
+                        <a asp-controller="Account" asp-action="Register">
+                            registered member
+                        </a>
+                        to create a new post.
+                    </span>
+                }
+               
+                <form asp-controller="Forum" asp-action="Search" method="post">
+                    <div class="searchForm">
+                        <input asp-for="SearchQuery" type="text" placeholder="Search..." class="searchBar" onfocus="clearThis(this)" />
+                        <button type="submit" class="btn buttonSearch">
+                            <i class="material-icons">search</i>
+                        </button>
+                        <div class="createPostButton">
+                            @if (signInManager.IsSignedIn(User))
+                            {
+                                <span id="headingBtn">
+                                    <a asp-controller="Post"
+                                       asp-action="Create"
+                                       asp-route-id="@Model.Forum.Id" class="btn btn-newPost">
+                                        Create Post
+                                    </a>
+                                </span>
+                            }
+                        </div>
+                    </div>
+                    <input asp-for="Forum.Id" name="id" type="hidden" />
+                </form>
+
+
+            </div>
+        </div>
+        <div class="row forumIndexContent">
+            @if (Model.Posts.Any())
+            {
+                <table class="table table-hover table-bordered" id="forumIndexTable" style="background-color: white">
+                    <tbody>
+                        @foreach (var post in Model.Posts)
+                        {
+                        <tr>
+                            <td>
+                                <div class="postData">
+                                    <div class="postTitle">
+                                        <a asp-controller="Post" asp-action="Index" asp-route-id="@post.Id">@post.Title</a>
+                                    </div>
+                                    <div class="forumSubTitle">
+                                        <div>
+                                            <span class="postAuthor">
+                                                <a asp-controller="Profile" asp-action="Detail" asp-route-id="@post.AuthorId">@post.AuthorName</a>
+                                            </span>
+                                            <span class="badge rounded-circle" style="background-color: skyblue"> @post.AuthorRating </span> on
+                                            <span class="postData">
+                                                @post.DatePosted
+                                            </span>
+                                            <div style="float: right">
+                                                <span style="margin-bottom: 10px; margin-left: 20px">@post.TotalLikes</span>
+                                                <i class="inline-icon material-icons">favorite</i>
+                                            </div>
+                                           
+                                        </div>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="forumPostContent">
+                                    Replies: @post.RepliesCount<br />
+                                </div>
+                            </td>
+                            <td>
+                                <ul class="navbar-nav ml-auto" style="float: right">
+                                    @if (post.AuthorName == User.Identity.Name)
+                                    {
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link" href="#" id="navbarDropdownMenuLink"
+                                               data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                <i class="material-icons" style="color: gray; float: right">
+                                                    more_horiz
+                                                </i>
+                                            </a>
+                                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                                <a class="dropdown-item" asp-controller="Post" asp-action="Edit" asp-route-id="@post.Id">Edit Post </a>
+                                                <a class="dropdown-item" asp-controller="Post" asp-action="Delete" asp-route-id="@post.Id">Delete Post</a>
+                                            </div>
+                                        </li>
+                                    }
+                                </ul>
+                                <div style="float: left" class="postData">@post.DatePosted</div>
+                            </td>
+                        </tr>
+                        }
+                    </tbody>
+                </table>
+            }
+            else
+            {
+                <div class="noPosts">
+                    <i class="material-icons md-72">question_answer</i>
+                    <h3>
+                        It looks like there are no posts to be found.
+                        @if (signInManager.IsSignedIn(User))
+                        {
+                        <partial>
+                            Why not
+                            <a asp-controller="Post" asp-action="Create" asp-route-id="@Model.Forum.Id">
+                                create one
+                            </a>
+                        </partial>
+                        }
+                        
+                    </h3>
+                </div>
+
+            }
+        </div>
+    </div>
+</body>
+</html>
+@section Scripts{
+    <script>
+
+        $(document).ready(function () {
+            $("#deleteBtn").on('click', function () {
+                $.ajax({
+                    //base address/controller/Action
+                    url: '@Url.Action("Delete", "Post")',
+                    type: 'GET',
+                    data: {
+                        //Passing Input parameter
+                        id: $("#postId").val()
+                    },
+                    success: function (result) {
+
+                    },
+                    error: function () {
+                        alert("error");
+                    }
+
+                });
+                return false;
+            });
+        }); 
+
+    </script>
+} 

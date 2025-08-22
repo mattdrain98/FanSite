@@ -1,0 +1,179 @@
+﻿@using Microsoft.AspNetCore.Identity
+@model ProfileModel
+
+@inject SignInManager<ApplicationUser> signInManager
+@inject UserManager<ApplicationUser> userManager 
+@{ 
+    var userId = userManager.GetUserId(User);
+    var userFollow = Model.Follows.Where(follow => follow.Follower.Id == userId).Where(follow => follow.Following.Id == Model.UserId).FirstOrDefault();
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="~/css/site.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <div class="container body-content">
+        <div class="row sectionHeader">
+            <div class="sectionHeading noBorder">
+                User Profile
+            </div>
+        </div>
+
+        <div class="row userProfile">
+            <div class="col-md-4">
+                @if (Model.ProfileImageUrl == null)
+                {
+                    <img src="~/images/blankpicture.png" id="userProfileImage" style="background-size: 100%;">
+                }
+                else
+                {
+
+                    <div id="userProfileImage" style="background-image: url(@Model.ProfileImageUrl); background-size:100%;"></div>
+                }
+                @if (signInManager.IsSignedIn(User))
+                {
+
+                    if (User.Identity.Name != Model.UserName && userFollow == null)
+                    {<br />
+                        <div id="follow" class="inline-icon material-icons" style="cursor: pointer; display: inline-block">person_add_alt</div>
+                        <input id="followers" type="hidden" asp-for="@Model.UserId" />
+                        <a class="inline-icon material-icons" asp-controller="ProfileComment" asp-action="Create" asp-route-id="@Model.UserId" style="color: black; background: white; display: inline-block; text-decoration: none">mode_comment</a>
+
+
+                    }
+                    else if (User.Identity.Name != Model.UserName && userFollow != null)
+                    {
+                        <br />
+                        <div id="follow" class="inline-icon material-icons" style="cursor: pointer; display: inline-block">person_remove</div>
+                        <input id="followers" type="hidden" asp-for="@Model.UserId" />
+                        <a class="inline-icon material-icons" asp-controller="ProfileComment" asp-action="Create" asp-route-id="@Model.UserId" style="color: black; background: white; display: inline-block; text-decoration: none">mode_comment</a>
+
+                    }
+                }
+                @if (Context.User.Identity.Name == Model.UserName)
+                {
+                    <form method="post" enctype="multipart/form-data" asp-controller="Profile" asp-action="UploadProfileImage">
+                        <div id="upload">
+                            <label class="btn btn-default btn-file">
+                                Browse <input type="file" name="file" style="display: none;">
+                            </label>
+                        </div>
+                        <button type="submit" id="btn-profile" class="btn btn-default">Submit</button>
+                    </form>
+                    <a asp-controller="Profile" asp-action="EditBio" asp-route-id="@Model.UserId" style="text-decoration: none; color: black">Add bio</a>
+                }
+            </div>
+            <div class="col-md-8">
+                <span id="userName">
+                    @Model.UserName <a id="userEditLabel" class="inline-icon material-icons" style="text-decoration: none; display: inline-block; color: black" asp-controller="Profile" asp-action="EditUserName" asp-route-id="@Model.UserId">edit</a>
+                </span>
+                
+                <span id="userRating">Current Rating: </span><span class="badge rounded-circle" style="background-color: skyblue">@Model.UserRating</span>
+                <span id="userCreatedLabel">Member Since: @Model.MemberSince</span>
+                <span id="userActiveLabel">
+                </span>
+
+                @if (signInManager.IsSignedIn(User))
+                {
+
+                    if (User.Identity.Name != Model.UserName && userFollow == null)
+                    {
+                        <a id="getFollowers2" asp-controller="Profile" asp-action="Followers" asp-route-id="@Model.UserId" style="cursor: pointer; text-decoration: none; color: #444">Followers</a><span id="getFollowers">: @Model.Followers </span><a asp-controller="Profile" asp-action="Following" asp-route-id="@Model.UserId" id="getFollowers2" style="cursor: pointer; text-decoration: none; color: #444; margin-left: 15px"> Following</a><span id="getFollowers2">: @Model.Following</span>
+                        <input id="followers" type="hidden" asp-for="@Model.UserId" />
+                    }
+                    else if (User.Identity.Name != Model.UserName && userFollow != null)
+                    {
+                        <a id="getFollowers2" asp-controller="Profile" asp-action="Followers" asp-route-id="@Model.UserId" style="cursor: pointer; text-decoration: none; color: #444">Followers</a><span id="getFollowers">: @Model.Followers </span><a asp-controller="Profile" asp-action="Following" asp-route-id="@Model.UserId" id="getFollowers2" style="cursor: pointer; text-decoration: none; color: #444; margin-left: 15px"> Following</a><span id="getFollowers2">: @Model.Following</span>
+                        <input id="followers" type="hidden" asp-for="@Model.UserId" />
+                    }
+                    else
+                    {
+                        <a id="getFollowers2" asp-controller="Profile" asp-action="Followers" asp-route-id="@Model.UserId" style="cursor: pointer; text-decoration: none; color: #444">Followers</a><span id="getFollowers">: @Model.Followers </span><a asp-controller="Profile" asp-action="Following" asp-route-id="@Model.UserId" id="getFollowers2" style="cursor: pointer; text-decoration: none; color: #444; margin-left: 15px"> Following</a><span id="getFollowers2">: @Model.Following</span>
+                        <input id="followers" type="hidden" asp-for="@Model.UserId" />
+                    }
+                }
+                <span id="userBioLabel">@Model.Bio</span>
+            </div>
+        </div>
+
+    </div>
+    <div id="replyDivider"></div>
+    <div class="postReplyContent">
+        @if (Model.ProfileComments.Any())
+        {
+            foreach (var comment in Model.ProfileComments)
+            {
+                <div class="row replyContent">
+                    <div class="col-md-4 replyAuthorContainer">
+                        @if (comment.AuthorImageUrl == null)
+                        {
+                            <div class="postAuthorImage" style="background-image: url(https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png); background-size: 100%;"></div>
+                        }
+                        else
+                        {
+                            <div class="postAuthorImage" style="background-image: url(@comment.AuthorImageUrl); background-size: 100%;"></div>
+                        }
+
+                        <a asp-controller="Profile" asp-action="Detail" asp-route-id="@comment.AuthorId">
+                            <strong>@comment.AuthorName</strong>
+                        </a> <span class="badge rounded-circle" style="background-color: skyblue"> @comment.AuthorRating </span> <br />
+                        <span class="postDate">@comment.Date</span>
+                    </div>
+                    <div class="col-md-8 replyContentContainer">
+                        <div class="postContent">
+                            @Html.Raw(comment.CommentContent)
+                        </div>
+                      
+                    </div>
+                </div>
+            }
+        }
+        else
+        {
+            <div class="noPosts">
+                <h3>
+                    There are no comments on this profile.<br />
+                </h3>
+            </div>
+        }
+        </div>
+
+        <script>
+
+        $(document).ready(function () {
+            $("#follow").on('click', function () {
+                $.ajax({
+                    //base address/controller/Action
+                    url: '@Url.Action("UpdateFollows", "Profile")',
+                    type: 'POST',
+                    data: {
+                        //Passing Input parameter
+                        id: $("#followers").val()
+                    },
+                    success: function (result) {
+
+                        if (document.getElementById("follow").innerHTML == "person_add_alt") {
+                            $("#getFollowers").html(": " + result + " ");
+                            $("#follow").html("person_remove");
+                        }
+                        else if (document.getElementById("follow").innerHTML == "person_remove") {
+                            $("#getFollowers").html(": " + result + " ");
+                            $("#follow").html("person_add_alt");
+                        }
+
+                    },
+                    error: function () {
+                        alert("error");
+                    }
+
+                });
+                return false;
+            });
+        });
+
+        
+        </script>
+</body>
+</html>

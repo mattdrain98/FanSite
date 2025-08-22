@@ -1,0 +1,511 @@
+﻿@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+a.navbar-brand {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+.btn-reply {
+  border: none;
+  font-size: 12px;
+  color: inherit;
+  background: none;
+  cursor: pointer;
+  display: inline-block;
+  letter-spacing: 1px;
+  font-weight: 700;
+  outline: none;
+  position: relative;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.btn-reply:after {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+/* Pseudo elements for icons */
+.btn-reply:before {
+  font-family: 'FontAwesome';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  position: relative;
+  -webkit-font-smoothing: antialiased;
+}
+
+
+/* Provide sufficient contrast against white background */
+a {
+  color: #0366d6;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.btn-forumSearch{
+    background: none !important; 
+    border: none; 
+    padding: 0 !important; 
+    font: inherit; 
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.border-top {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+    background-image: url(../images/Ra9b34e28bcaac3c6c79fa8782fce737c.jfif);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px; /* Vertically center the text there */
+}
+
+.delete{
+    float: right; 
+}
+
+.logoutbutton {
+    padding: 0;
+    border: none;
+    background: none;
+}
+
+.searchBar{ 
+    background-color: #333; 
+    width: 10%; 
+    transition: ease .3s; 
+    border: none; 
+}
+
+.searchBar:focus{
+    color: black; 
+    width: 40%; 
+    background-color: #fff; 
+}
+
+.userProfile{
+    padding: 32px 0 64px 24px; 
+    background-color: #fff; 
+}
+#userRating{
+    display: inline; 
+    color: #444; 
+    font-family: 'Roboto'; 
+    padding-top: 3px; 
+}
+#userEmailLabel, #userBioLabel, #userCreatedLabel, #userActiveLabel{
+    display: block; 
+    color: #444; 
+    font-family: 'Roboto'; 
+    padding-top: 3px; 
+}
+
+#userEditLabel{
+    display: block; 
+    padding-top: 3px; 
+}
+
+ #getFollowing{
+    display: inline-block; 
+    color: #444; 
+    font-family: 'Roboto'; 
+    padding-top: 3px; 
+}
+#getFollowers {
+    display: inline-block;
+    color: #444;
+    font-family: 'Roboto';
+    padding-top: 3px;
+}
+#getFollowers2 {
+    display: inline-block;
+    color: #444;
+    font-family: 'Roboto';
+    padding-top: 3px;
+}
+#userName {
+    display: block;
+    color: crimson;
+    font-family: 'Roboto';
+    font-size: 1.7em;
+}
+
+.body-content{
+    
+}
+
+.sectionHeader {
+    display: block;
+    background-color: lightseagreen;
+    padding: 15px;
+}
+.homeSectionHeader {
+    display: block;
+    background-color: orangered; 
+    padding: 15px; 
+}
+.sectionHeading{
+    display: block; 
+    color: #000; 
+    padding: 3px; 
+}
+
+
+
+.btn-newPost{
+    padding: 5px; 
+    background: crimson; 
+    color: white; 
+    border: ridge; 
+}
+
+btn-newPost:hover{
+    padding: 4px; 
+    background: darkred; 
+    color: #333; 
+    border: ridge; 
+}
+
+.createPostButton{
+    display: inline-block; 
+    float: right; 
+}
+
+.postHeader {
+    display: block;
+    background-color: lightseagreen;
+    padding: 15px;
+}
+
+#postIndexContent {
+    background-color: white;
+}
+.postAuthorContainer {
+    padding: 10px; 
+    border-right: thin; 
+}
+
+.postContentContainer{
+    background-color: white; 
+    border-left: medium; 
+    padding: 10px; 
+}
+.btn-back {
+    display: inline-block; 
+    border: ridge; 
+    float: right; 
+    background: #333; 
+    color: #fff; 
+    padding: 5px; 
+}
+
+
+.btn-newReply {
+    padding: 5px;
+    background-color: crimson;
+    text-align: center;
+    flex: initial;
+    border-color: white;
+}
+
+.postReplyContent{
+    border-top: thick; 
+    display: block; 
+    background-color: white; 
+    padding: 15px; 
+}
+
+#userProfileImage{
+    display: inline-block; 
+    width: 200px; 
+    height: 200px; 
+    background-image: url(../images/blankpicture.png); 
+}
+
+.postAuthorImage{
+    padding-top: 30px; 
+    padding-bottom: 30px;
+}
+
+.postContent{
+    margin: 10px; 
+}
+
+#headingBtn{
+    text-align: right; 
+}
+
+#addPostForm {
+    display: block;
+    background-color: white;
+    padding: 15px;
+}
+
+#replyDivider {
+    display: block;
+    background-color: #333;
+    padding: 15px; 
+}
+
+#replyContentDivider {
+    display: block; 
+    padding: 15px;
+    background-color: white;
+}
+#replyRow{
+    padding: 15px; 
+}
+
+#latestPostsTable {
+    width: 100%; 
+    height: auto; 
+    background-color: white; 
+}
+
+.inline-icon {
+    vertical-align: text-bottom;
+}
+
+.noPosts{
+    width: 100%; 
+    display: block;
+    background-color: white; 
+    padding: 15px; 
+}
+
+.videoTrailer {
+    width: 50%; 
+    height: auto; 
+    display: inline;
+}
+video{
+    display: inline-block; 
+    margin: 0 auto; 
+    width: 50%; 
+    height: auto; 
+
+}
+
+.clive{
+   height: 200px; 
+}
+
+.responsive{
+    height: 100%; 
+    width: auto; 
+}
+
+.changePassword{
+    display: block; 
+    background-color: #6cffce; 
+    padding: 15px; 
+}
+
+
+.btn-4 {
+    background: #34495e;
+    color: #fff;
+}
+.btn-4:hover {
+    background: #2c3e50;
+
+}
+.btn-4:active {
+    background: #2c3e50;
+    top: 2px;
+}
+
+.btn-4:before {
+    position: absolute;
+    height: 100%;
+    left: 0;
+    top: 0;
+    font-size: 140%;
+    width: 30px;
+    }
+/* Icon separator */
+.btn-sep {
+    padding: 10px 5px 10px 40px;
+}
+
+.btn-sep:before {
+    background: rgba(0,0,0,0.15);
+}
+
+.icon-reply:before {
+    content: "\f112";
+}
+.icon-cart:before {
+    content: "\f07a";
+}
+
+.icon-heart:before {
+    content: "\f55a";
+}
+
+.icon-info:before {
+    content: "\f05a";
+}
+
+.icon-send:before {
+    content: "\f1d8";
+}
+
+.form-control {
+    display: block;
+    background-color: #c6ffff;
+    transition: ease .3s;
+    padding: 15px;
+}
+
+.form-control:focus{
+    color: black; 
+    background-color: white; 
+}
+
+.replyOriginalPost { 
+    display: block; 
+    background-color: white;
+    padding: 15px;
+}
+
+.authorBlock{
+    display: block; 
+    padding-left: 15px; 
+    padding-top: 15px; 
+    border-top: thin; 
+}
+
+.authorBlockName{
+    color: red; 
+}
+.btn-submitPost{
+    background: #cb0a31; 
+    color: #333; 
+}
+
+
+.btn-newScreenshot {
+    display: inline-block; 
+    float: right; 
+    padding: 5px;
+    background: crimson;
+    color: white;
+    border: ridge;
+}
+
+.btn-newScreenshot:hover{
+    padding: 5px; 
+    background: #be0c30; 
+    color: #333; 
+    transition: ease 0.3s; 
+    border: ridge; 
+}
+
+#screenshotRow{
+    text-align: right; 
+}
+
+.createScreenshotButton{
+    display: inline-block;  
+    float: right; 
+}
+.screenshotContent {
+    display: block;
+    padding: 15px;
+    background-color: white;
+}
+
+.register{
+    display: block; 
+    padding: 15px; 
+    background-color: white; 
+}
+
+#createForumForm {
+    display: block;
+    background-color: white;
+    padding: 15px;
+}
+
+.like{
+
+}
+
+.like:hover{
+    cursor: pointer; 
+}
+
+.deleteBtn{
+
+}
+.deleteBtn:hover{
+    cursor: pointer; 
+     
+}
+

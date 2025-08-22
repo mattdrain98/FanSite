@@ -1,0 +1,180 @@
+﻿@model Fan_Website.Models.Post.PostIndexModel
+@inject SignInManager<ApplicationUser> signInManager
+@{
+    var userLike = Model.Likes.Where(l => l.User.UserName == User.Identity.Name).FirstOrDefault();
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="~/css/images.css" rel="stylesheet" />
+    <link href="~/css/site.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+
+</head>
+<body>
+    <div class="container body-content">
+        <div class="row postHeader">
+            <div class="postHeading">
+                <span class="postIndexTitle">
+                    @Model.Title
+                </span>
+                <span id="headingBtn"><a asp-controller="Forum" asp-action="Topic" asp-route-id="@Model.ForumId"><span class="material-icons" style="color: black; float: right">
+                    arrow_back
+                </span></a></span>
+            </div>
+        </div>
+
+        <div class="row" id="postIndexContent">
+            <div class="col-md-3 postAuthorContainer">
+                @if (Model.AuthorImageUrl == null)
+                {
+                    <div class="postAuthorImage" style="background-image: url(https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png);
+        background-size: 100%;"></div>
+                }
+                else
+                {
+                    <div class="postAuthorImage" style="background-image: url(@Model.AuthorImageUrl); background-size: 100%;"></div>
+                }
+
+                <a asp-controller="Profile" asp-action="Detail" asp-route-id="@Model.AuthorId">
+                    <strong>@Model.AuthorName</strong>
+                </a> <span class="badge rounded-circle" style="background-color: skyblue"> @Model.AuthorRating </span> <br />
+                <span class="postDate">@Model.Date</span>
+            </div>
+            <div class="col-md-9 postContentContainer">
+                @if (signInManager.IsSignedIn(User))
+                {
+                    if (userLike != null)
+                    {
+                        <a id="likeBtn" class="material-icons" style="float: right; cursor: pointer">favorite</a>
+                        <div id="postLikes" style="float: right">@Html.Raw(@Model.TotalLikes)</div>
+                        <input id="likes" type="hidden" asp-for="@Model.Id" />
+                        <input id="unlike" type="hidden" asp-for="@userLike.Id" />
+                    }
+                    else if (userLike == null)
+                    {
+                        <a id="likeBtn" class="material-icons" style="float: right; cursor: pointer">favorite_border</a>
+                        <div id="postLikes" style="float: right">@Html.Raw(@Model.TotalLikes)</div>
+                        <input id="likes" type="hidden" asp-for="@Model.Id" />
+                        <input id="unlike" type="hidden" asp-for="@userLike.Id" />
+                    }
+
+
+                }
+                else if (!signInManager.IsSignedIn(User))
+                {
+                    <a id="notSignedIn" class="material-icons" style="float: right; cursor: pointer">favorite_border</a>
+                    <div id="postLikes" style="float: right">@Html.Raw(@Model.TotalLikes)</div>
+                }
+
+
+                <div class="postContent">
+                    @Html.Raw(@Model.PostContent)
+                </div>
+                @if (User.Identity.Name == Model.AuthorName)
+                {
+                    <a asp-controller="Post" asp-action="Edit" asp-route-id="@Model.Id" style="float: right">
+                        Edit
+                    </a>
+                }
+
+            </div>
+
+
+        </div>
+
+        <div class="row" id="replyDivider"></div>
+        <div class="row postReplyContent">
+            @if (signInManager.IsSignedIn(User))
+            {
+                <div class="row" id="replyRow">
+                    <span><a asp-controller="Reply" asp-action="Create" asp-route-id="@Model.Id" class="btn btn-reply btn-4 btn-sep icon-reply">Reply</a></span>
+                </div>
+            }
+
+            @if (Model.Replies.Any())
+            {
+                foreach (var reply in Model.Replies)
+                {
+                    <div class="row replyContent">
+                        <div class="col-md-3 replyAuthorContainer">
+                            @if (reply.AuthorImageUrl == null)
+                            {
+                                <div class="postAuthorImage" style="background-image: url(https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png); background-size: 100%;"></div>
+                            }
+                            else
+                            {
+                                <div class="postAuthorImage" style="background-image: url(@reply.AuthorImageUrl); background-size: 100%;"></div>
+                            }
+
+                            <a asp-controller="Profile" asp-action="Detail" asp-route-id="@reply.AuthorId">
+                                <strong>@reply.AuthorName</strong>
+                            </a> <span class="badge rounded-circle" style="background-color: skyblue"> @reply.AuthorRating </span> <br />
+                            <span class="postDate">@reply.Date</span>
+                        </div>
+                        <div class="col-md-9 replyContentContainer">
+                            <div class="postContent">
+                                @Html.Raw(@reply.ReplyContent)
+                            </div>
+                            @if (User.Identity.Name == reply.AuthorName)
+                            {
+                                <a asp-controller="Post" asp-action="DeleteReply" asp-route-id="@reply.Id" class="btn btn-link" style="float: right">Delete</a>
+                                <a asp-controller="Post" asp-action="EditReply" asp-route-id="@reply.Id" class="btn btn-link" style="float: right">Edit</a>
+                            }
+
+                        </div>
+                    </div>
+                }
+            }
+            else
+            {
+                <div class="noPosts">
+                    <h3>
+                        There are no replies to this post.<br />
+                    </h3>
+                </div>
+            }
+        </div>
+    </div>
+
+    <script>
+
+        $(document).ready(function () {
+            $("#likeBtn").on('click', function () {
+                $.ajax({
+                    //base address/controller/Action
+                    url: '@Url.Action("UpdateLikes", "Post")',
+                    type: 'POST',
+                    data: {
+                        //Passing Input parameter
+                        id: $('#likes').val(),
+                        likes: $('#unlike').val()
+                    },
+                    success: function (result) {
+                        if (document.getElementById("likeBtn").innerHTML == "favorite_border") {
+                            $("#postLikes").html(result);
+                            $("#likeBtn").html("favorite"); 
+                        }
+                        else if (document.getElementById("likeBtn").innerHTML == "favorite") {
+                            $("#postLikes").html(result);
+                            $("#likeBtn").html("favorite_border"); 
+                        }
+                    },
+                    error: function () {
+                        alert("error");
+                    }
+
+                });
+                return false;
+            });
+        });
+        $("#notSignedIn").on('click', function() {
+            alert("Please sign in"); 
+        });
+    </script>
+</body>
+</html>

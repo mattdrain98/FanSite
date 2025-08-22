@@ -1,0 +1,29 @@
+﻿@model Fan_Website.Models.Profile.ProfileEditModel
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="~/css/site.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="sectionHeader">
+        <h1>Change Username | @Model.UserName</h1>
+    </div>
+
+
+    <form asp-action="EditUsername" method="post" id="addPostForm">
+
+        <div class="addPost">
+            <input type="hidden" asp-for="@Model.UserId" />
+            <div class="form-group">
+                <label asp-for="UserName"></label>
+                <input asp-for="UserName" class="form-control">
+            </div>
+            <button type="submit" id="submitPostBtn" class="btn btn-primary">Change Username</button>
+        </div>
+    </form>
+
+</body>
+</html>

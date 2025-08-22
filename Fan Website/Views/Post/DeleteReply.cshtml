@@ -1,0 +1,20 @@
+﻿@model DeletePostReply
+
+<h2>Delete Reply</h2>
+
+<br />
+
+
+<h3>
+
+    @Model.Content
+</h3>
+
+<form asp-action="DeleteReply" method="post">
+
+    <input type="hidden" asp-for="@Model.Id" />
+
+    <button type="submit" class="btn btn-primary">Delete</button>
+    <input type="hidden" asp-for="@Model.Post.PostId" />
+    <a asp-controller="Forum" asp-action="Index" class="btn btn-primary">Cancel</a>
+</form>
